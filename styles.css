@@ -1,0 +1,91 @@
+/* --- Styles from Portfolio Page (index.html) --- */
+.hero-section {
+    background: #ffffff;
+}
+
+.cta-button {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Styles from Interactive Resume Page --- */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFDFB;
+    color: #1a202c;
+}
+
+.nav-link {
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 8px;
+    transition: color 0.3s;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4A5568;
+    transition: width 0.3s;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #2D3748;
+}
+
+.nav-link.active::after,
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.modal-backdrop {
+    transition: opacity 0.3s;
+}
+
+.modal-content {
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    max-height: 400px;
+}
+
+@media (min-width: 768px) {
+    .chart-container {
+        height: 400px;
+    }
+}
+
+/* --- Shared Styles --- */
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
