@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imran Ibrahim | Computer Science Student</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -47,7 +48,7 @@
                 <div class="max-w-4xl mx-auto bg-white p-10 rounded-lg shadow-lg">
                     <h2 class="text-3xl font-bold text-center mb-6">About Me</h2>
                     <p class="text-gray-700 leading-relaxed text-center">
-                        I am an undergraduate student pursuing a Bachelor of Science in Computer Science. My goal is to become a software developer and work on some of the leading technologies of the world. I hope to contribute to programs that make a difference in people's lives for the better or make our world and communities a better place.
+                        As a Computer Science student, my passion lies in developing software that streamlines progress and enhances daily life. I aim to build intuitive technological solutions that simplify tasks for individuals, drive efficiency for companies, and ultimately empower communities to thrive.
                     </p>
                 </div>
             </div>
@@ -93,13 +94,19 @@
             <h3 class="text-2xl font-bold">Get In Touch</h3>
             <p class="mt-2 max-w-md mx-auto">I'm currently seeking new opportunities. Feel free to reach out via email.</p>
             <div class="mt-6">
-                <a href="mailto:imranibrahim20@gmail.com" class="bg-white text-gray-800 font-bold py-3 px-6 rounded-lg hover:bg-gray-200 cta-button inline-block">
-                    imranibrahim20@gmail.com
-                </a>
+                 <form action="https://formspree.io/f/mnnbkrbn" method="POST" class="max-w-xl mx-auto">
+                    <div class="flex flex-col md:flex-row gap-4 mb-4">
+                        <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-slate-500">
+                        <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-slate-500">
+                    </div>
+                    <textarea name="message" placeholder="Your Message" rows="5" required class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-slate-500 mb-4"></textarea>
+                    <button type="submit" class="w-full bg-white text-gray-800 font-bold py-3 px-6 rounded-lg hover:bg-gray-200 cta-button">Send Message</button>
+                </form>
             </div>
-            <p class="mt-8 text-gray-400">&copy; 2024 Imran Ibrahim. All rights reserved.</p>
+            <p class="mt-8 text-gray-400">&copy; 2025 Imran Ibrahim. All rights reserved.</p>
         </div>
     </footer>
 
 </body>
 </html>
+
