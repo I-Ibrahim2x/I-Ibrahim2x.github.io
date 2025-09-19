@@ -10,15 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <!-- Chosen Palette: Warm Neutrals & Slate Blue -->
-    <!-- Application Structure Plan: A tab-based single-page application. The structure uses a main navigation bar to switch between content sections (About, Skills, Projects, Experience). This is more user-friendly than a long scroll, allowing recruiters to jump to specific areas of interest. The key interaction is the project section, where clicking on a project card reveals a modal with detailed information. This "drill-down" approach keeps the main interface clean while offering depth on demand, which is ideal for showcasing complex projects effectively. -->
-    <!-- Visualization & Content Choices: 
-        - Header/Objective: (Goal: Inform) -> Standard HTML text block. Clear and immediate context.
-        - Skills: (Goal: Organize/Compare) -> A doughnut chart (Chart.js/Canvas) visualizes the composition of the skill set (by count in each category). This gives a quick overview. Below it, skills are listed as styled "pills" within categories for a modern, organized look.
-        - Projects: (Goal: Inform/Explore) -> Interactive cards (HTML/CSS/JS). Interaction: Clicking a card opens a modal with details. Justification: This prevents information overload on the main page and encourages user engagement to learn more.
-        - Experience/Education: (Goal: Inform) -> A vertical timeline (HTML/CSS). Justification: This is a visually intuitive way to present chronological information.
-    -->
-
 </head>
 <body class="antialiased">
 
@@ -33,7 +24,7 @@
         <!-- Header -->
         <header class="text-center mb-12">
             <h1 class="text-4xl md:text-5xl font-bold text-gray-800">Imran Ibrahim</h1>
-            <p class="mt-2 text-lg text-gray-600">Seattle, Washington | imranibrahim20@gmail.com</p>
+            <p class="mt-2 text-lg text-gray-600">Seattle, Washington | 206-839-6186 | imranibrahim20@gmail.com</p>
         </header>
 
         <!-- Navigation -->
@@ -48,9 +39,9 @@
             <!-- About Section -->
             <section id="about" class="content-section active">
                  <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
-                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Objective</h2>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Professional Summary</h2>
                     <p class="text-gray-700 leading-relaxed">
-                        Motivated and detail-oriented Computer Science student at Western Governors University(WGU) with a strong foundation in programming, data structures, and algorithms. Seeking a Software Development Engineer role to apply technical expertise in building scalable, user-centric applications and contribute to innovative projects.
+                        I'm a software developer driven by a passion for building practical, efficient, and user-centric applications. I enjoy the challenge of transforming complex problems into simple, scalable software solutions. With a strong foundation in full-stack development, I focus on writing clean, maintainable code and leveraging modern web technologies to create impactful products. I am a lifelong learner, dedicated to continuously improving my skills and contributing collaboratively to innovative projects.
                     </p>
                  </div>
             </section>
@@ -94,7 +85,7 @@
                                 <div class="flex flex-wrap gap-2">
                                     <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Full-Stack Development</span>
                                     <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Geospatial Algorithms</span>
-                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Collision Detection</span>
+                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Object-Oriented Design</span>
                                     <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">User Experience (UX) Design</span>
                                 </div>
                             </div>
@@ -186,26 +177,26 @@
                 id: 'driving-school',
                 title: 'Discount Driving School Website',
                 subtitle: 'Full-Stack Project | 2025-Ongoing',
-                description: 'A full-stack web app for a local driving school to manage student registrations and scheduling.',
+                description: 'Full-Stack Web App Built from Scratch to Solve a Business Need.',
                 details: `
                     <ul class="list-disc list-inside space-y-2">
-                        <li>Developed a full-stack, responsive web application for a local driving school to manage student registrations and class scheduling.</li>
-                        <li>Engineered the front-end using <strong>HTML, CSS, and vanilla JavaScript</strong>, creating an intuitive and accessible user interface for students and instructors.</li>
-                        <li>Implemented the back-end using <strong>Firebase</strong>, including Firestore for the database and Firebase Authentication for secure user login and profile management.</li>
-                        <li>Designed and integrated a real-time booking system, allowing students to view available slots and schedule driving lessons seamlessly.</li>
+                        <li>Identified an opportunity to improve operational efficiency for a local business and took the initiative to design, build, and deploy a full-stack, serverless solution.</li>
+                        <li>Architected a secure backend using <strong>Firebase (Firestore & Authentication)</strong> to manage user data, sessions, and state.</li>
+                        <li>Developed an intuitive and responsive front-end using <strong>vanilla JavaScript, HTML, and CSS</strong>.</li>
+                        <li>Engineered a real-time booking system to prevent scheduling conflicts, demonstrating my ability to build robust, scalable solutions with minimal dependencies.</li>
                     </ul>
                 `
             },
             {
                 id: 'personal-website',
                 title: 'Personal Website',
-                subtitle: 'Ever Evolving. <span title="flexing">💪🏽</span>',
-                description: 'A personal portfolio website to showcase technical skills, achievements, and projects.',
+                subtitle: 'Ever Evolving. 💪🏽',
+                description: 'My personal portfolio, built to showcase my skills and projects in a responsive, modern design.',
                 details: `
                     <ul class="list-disc list-inside space-y-2">
-                        <li>Designing and developing a personal portfolio website to showcase technical skills, achievements, and projects.</li>
-                        <li>Utilizing <strong>HTML, CSS, and JavaScript</strong> to ensure a responsive and professional online presence.</li>
-                        <li>Integrating features such as contact forms and interactive elements to enhance user engagement.</li>
+                        <li>Driving the end-to-end development of this portfolio as a living project that evolves with my skills.</li>
+                        <li>Utilizing <strong>HTML, CSS, and JavaScript</strong> to ensure a professional and responsive online presence across all devices.</li>
+                        <li>This interactive resume is an example of creating a dynamic and engaging user experience.</li>
                     </ul>
                 `
             },
@@ -213,11 +204,12 @@
                 id: 'snake-game',
                 title: 'Snake Game',
                 subtitle: 'Summer Project | May 2023',
-                description: 'A classic Snake Game built with Java, featuring real-time gameplay and collision detection.',
+                description: 'An exploration of object-oriented design and core game logic in Java.',
                 details: `
                     <ul class="list-disc list-inside space-y-2">
-                        <li>Designed and implemented a classic Snake Game using <strong>Java</strong> with real-time gameplay features like collision detection and dynamic scoring.</li>
-                        <li>Improved the user experience through intuitive controls and visually engaging graphics.</li>
+                        <li>Applied <strong>object-oriented design principles in Java</strong> to build a complete, interactive application from the ground up.</li>
+                        <li>Focused on core game development logic, including real-time state management, collision detection, and dynamic scoring.</li>
+                        <li>Prioritized a quality user experience through clean code structure and intuitive controls.</li>
                     </ul>
                 `
             },
@@ -225,10 +217,11 @@
                 id: 'distance-calculator',
                 title: 'Global Distance Calculator',
                 subtitle: 'Summer Project | May 2022',
-                description: 'A Java program to calculate surface distances between locations on Earth using geospatial algorithms.',
+                description: 'A practical application of geospatial algorithms and problem-solving in Java.',
                 details: `
                     <ul class="list-disc list-inside space-y-2">
-                        <li>Developed a program to calculate surface distances between locations on Earth in <strong>Java</strong>, using geospatial algorithms for accurate geographical analysis and navigation.</li>
+                        <li>Developed a Java application implementing geospatial algorithms to accurately calculate surface distances between two points on Earth.</li>
+                        <li>Demonstrated strong <strong>problem-solving and algorithmic thinking</strong> by translating complex mathematical formulas into functional code.</li>
                     </ul>
                 `
             },
@@ -268,7 +261,7 @@
             if (!project) return;
             
             modalTitle.textContent = project.title;
-            modalSubtitle.textContent = project.subtitle;
+            modalSubtitle.innerHTML = project.subtitle;
             modalContent.innerHTML = project.details;
 
             modal.classList.remove('hidden');
@@ -351,5 +344,3 @@
 
 </body>
 </html>
-
-
