@@ -12,46 +12,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="antialiased">
-
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-
-        <!-- Back Button -->
         <a href="index.html" class="absolute top-12 left-4 sm:left-8 text-gray-600 hover:text-gray-900 group flex items-center transition-colors">
             <svg class="w-4 h-4 mr-2 transform group-hover:-translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
             <span>Back to Portfolio</span>
         </a>
 
-        <!-- Header -->
         <header class="text-center mb-12 pt-16 sm:pt-0">
             <h1 class="text-4xl md:text-5xl font-bold text-gray-800">Imran Ibrahim</h1>
-            <p class="mt-2 text-lg text-gray-600">Seattle, Washington | imranibrahim20@gmail.com</p>
+            <p class="mt-2 text-lg text-gray-600">Software Engineer | imranibrahim20@gmail.com</p>
         </header>
 
-        <!-- Navigation -->
         <nav class="flex justify-center space-x-6 sm:space-x-8 border-b mb-12">
-            <a onclick="showSection('about')" class="nav-link text-gray-500 font-medium active">About</a>
+            <a onclick="showSection('about')" class="nav-link text-gray-500 font-medium active">Profile</a>
             <a onclick="showSection('skills')" class="nav-link text-gray-500 font-medium">Skills</a>
             <a onclick="showSection('projects')" class="nav-link text-gray-500 font-medium">Projects</a>
-            <a onclick="showSection('experience')" class="nav-link text-gray-500 font-medium">Experience</a>
+            <a onclick="showSection('experience')" class="nav-link text-gray-500 font-medium">History</a>
         </nav>
 
         <main>
-            <!-- About Section -->
             <section id="about" class="content-section active">
-                 <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
-                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Professional Summary</h2>
-                    <p class="text-gray-700 leading-relaxed">
-                        I'm a software developer driven by a passion for building practical, efficient, and user-centric applications. I enjoy the challenge of transforming complex problems into simple, scalable software solutions. With a strong foundation in full-stack development, I focus on writing clean, maintainable code and leveraging modern web technologies to create impactful products. I am a lifelong learner, dedicated to continuously improving my skills and contributing collaboratively to innovative projects.
+                 <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md border border-gray-100">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Executive Summary</h2>
+                    <p class="text-gray-700 leading-relaxed text-lg">
+                        Engineer with an owner’s mindset who ships practical software, not prototypes. Experience delivering full-stack systems, API-driven workflows, and internal dashboards by working directly with users to understand real problems and automate them away. Motivated by clean code, honest collaboration, and building software teams can trust in production.
                     </p>
                  </div>
             </section>
 
-            <!-- Skills Section -->
             <section id="skills" class="content-section">
-                <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800">Technical Skills</h2>
-                    <p class="mt-2 text-gray-600 max-w-2xl mx-auto">This chart provides a visual breakdown of my technical abilities by category. Below, you can find a detailed list of the specific languages, tools, and concepts I'm proficient in.</p>
-                </div>
                 <div class="flex flex-wrap -mx-4 items-center">
                     <div class="w-full lg:w-1/2 px-4">
                         <div class="chart-container">
@@ -61,32 +50,30 @@
                     <div class="w-full lg:w-1/2 px-4 mt-8 lg:mt-0">
                         <div class="space-y-6">
                             <div>
-                                <h3 class="text-xl font-semibold text-gray-700 mb-3">Programming Languages</h3>
+                                <h3 class="text-xl font-semibold text-gray-700 mb-3">Languages</h3>
                                 <div class="flex flex-wrap gap-2">
+                                    <span class="bg-slate-200 text-slate-800 px-3 py-1 rounded-full text-sm font-medium">JavaScript (ES6+)</span>
                                     <span class="bg-slate-200 text-slate-800 px-3 py-1 rounded-full text-sm font-medium">Java</span>
                                     <span class="bg-slate-200 text-slate-800 px-3 py-1 rounded-full text-sm font-medium">Python</span>
-                                    <span class="bg-slate-200 text-slate-800 px-3 py-1 rounded-full text-sm font-medium">HTML/CSS</span>
-                                    <span class="bg-slate-200 text-slate-800 px-3 py-1 rounded-full text-sm font-medium">JavaScript</span>
                                     <span class="bg-slate-200 text-slate-800 px-3 py-1 rounded-full text-sm font-medium">SQL</span>
                                 </div>
                             </div>
                             <div>
-                                <h3 class="text-xl font-semibold text-gray-700 mb-3">Tools & Technologies</h3>
+                                <h3 class="text-xl font-semibold text-gray-700 mb-3">APIs & Platforms</h3>
                                 <div class="flex flex-wrap gap-2">
-                                    <span class="bg-sky-200 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">Git</span>
                                     <span class="bg-sky-200 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">Firebase (Firestore & Auth)</span>
-                                    <span class="bg-sky-200 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">Node.js</span>
-                                    <span class="bg-sky-200 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">Version Control</span>
-                                    <span class="bg-sky-200 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">Responsive Web Design</span>
+                                    <span class="bg-sky-200 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">Clover Payment API</span>
+                                    <span class="bg-sky-200 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">SMTP2GO</span>
+                                    <span class="bg-sky-200 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">RESTful APIs</span>
                                 </div>
                             </div>
                              <div>
-                                <h3 class="text-xl font-semibold text-gray-700 mb-3">Relevant Concepts</h3>
+                                <h3 class="text-xl font-semibold text-gray-700 mb-3">Development Concepts</h3>
                                 <div class="flex flex-wrap gap-2">
-                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Full-Stack Development</span>
-                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Geospatial Algorithms</span>
-                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Object-Oriented Design</span>
-                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">User Experience (UX) Design</span>
+                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">System Design</span>
+                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Automation Mindset</span>
+                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Troubleshooting</span>
+                                    <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Agile Methodologies</span>
                                 </div>
                             </div>
                         </div>
@@ -94,59 +81,36 @@
                 </div>
             </section>
 
-            <!-- Projects Section -->
             <section id="projects" class="content-section">
-                <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800">Projects & Experience</h2>
-                    <p class="mt-2 text-gray-600 max-w-2xl mx-auto">Here are some of the key projects I've worked on. Click on any project card to view more details about the technologies used and the problems I solved.</p>
-                </div>
-                <div id="project-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                </div>
+                <div id="project-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
             </section>
 
-            <!-- Experience Section -->
             <section id="experience" class="content-section">
-                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800">Education & Experience</h2>
-                    <p class="mt-2 text-gray-600 max-w-2xl mx-auto">This timeline outlines my educational background, leadership roles, and relevant certifications.</p>
-                </div>
                 <div class="max-w-3xl mx-auto">
                     <div class="relative border-l-2 border-gray-200">
-                        <!-- WGU -->
                         <div class="mb-10 ml-6">
                             <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white">
                                 <svg class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
                             </span>
                             <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900">Western Governors University</h3>
-                            <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Expected Graduation: 2026</time>
-                            <p class="mb-4 text-base font-normal text-gray-600">Bachelor of Science in Computer Science. Relevant coursework includes Object-Oriented Programming (OOP), Data Structures and Algorithms, Discrete Mathematics, and Project Management.</p>
+                            <time class="block mb-2 text-sm font-normal text-gray-400">Bachelor of Science in Computer Science (Expected 2026)</time>
+                            <p class="text-base font-normal text-gray-600">Key Focus: Data Structures & Algorithms, Object-Oriented Programming, and Project Management.</p>
                         </div>
-                        <!-- Math Tutor -->
-                         <div class="mb-10 ml-6">
-                            <span class="absolute flex items-center justify-center w-6 h-6 bg-green-100 rounded-full -left-3 ring-8 ring-white">
-                                <svg class="w-3 h-3 text-green-800" fill="currentColor" viewBox="0 0 20 20"><path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path></svg>
+                        <div class="ml-6 mt-10">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-orange-100 rounded-full -left-3 ring-8 ring-white">
+                                 <svg class="w-3 h-3 text-orange-800" fill="currentColor" viewBox="0 0 20 20"><path d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z"></path></svg>
                             </span>
-                            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900">Math Tutor</h3>
-                            <time class="block mb-2 text-sm font-normal leading-none text-gray-400">May 2023 – September 2023</time>
-                            <p class="text-base font-normal text-gray-600">Provided one-on-one and group tutoring sessions. Developed customized lesson plans and fostered a supportive learning environment that enhanced student understanding and academic performance.</p>
-                        </div>
-                        <!-- Certifications -->
-                        <div class="ml-6">
-                           <span class="absolute flex items-center justify-center w-6 h-6 bg-purple-100 rounded-full -left-3 ring-8 ring-white">
-                                <svg class="w-3 h-3 text-purple-800" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 4a1 1 0 011 1v4a1 1 0 11-2 0v-4a1 1 0 011-1zm-3 0a1 1 0 011 1v4a1 1 0 11-2 0v-4a1 1 0 011-1z" clip-rule="evenodd"></path></svg>
-                           </span>
-                           <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900">Certifications</h3>
-                            <p class="text-base font-normal text-gray-600">Google IT Support Fundamentals (Coursera)</p>
-                        </div>
+                            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900">Communication</h3>
+                             <p class="text-base font-normal text-gray-600">English (Fluent), Arabic (Fluent)</p>
+                         </div>
                     </div>
                 </div>
             </section>
         </main>
     </div>
 
-    <!-- Project Modal -->
     <div id="project-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-50 modal-backdrop">
-        <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto modal-content scale-95 opacity-0">
+        <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl max-h-[90vh] overflow-y-auto modal-content">
             <div class="p-6 sm:p-8">
                 <div class="flex justify-between items-start">
                     <div>
@@ -162,7 +126,6 @@
         </div>
     </div>
 
-
     <script>
         const sections = document.querySelectorAll('.content-section');
         const navLinks = document.querySelectorAll('.nav-link');
@@ -175,110 +138,76 @@
         const projectsData = [
             {
                 id: 'driving-school',
-                title: 'Discount Driving School Website',
-                subtitle: 'Full-Stack Project | 2025-Ongoing',
-                description: 'Full-Stack Web App Built from Scratch to Solve a Business Need.',
+                title: 'Business Automation (Driving School)',
+                subtitle: 'Full-Stack Project | 2025-Present',
+                description: 'Architected a serverless application using Firebase to automate onboarding and scheduling.',
                 details: `
                     <ul class="list-disc list-inside space-y-2">
-                        <li>Identified an opportunity to improve operational efficiency for a local business and took the initiative to design, build, and deploy a full-stack, serverless solution.</li>
-                        <li>Architected a secure backend using <strong>Firebase (Firestore & Authentication)</strong> to manage user data, sessions, and state.</li>
-                        <li>Developed an intuitive and responsive front-end using <strong>vanilla JavaScript, HTML, and CSS</strong>.</li>
-                        <li><strong>Performed end-to-end testing and debugging throughout the development lifecycle to ensure application reliability and prevent scheduling conflicts.</strong></li>
+                        <li>Integrated <strong>Clover Payment API</strong> and <strong>SMTP2GO</strong> to automate payments and notifications, reducing manual administrative overhead.</li>
+                        <li>Built an <strong>internal admin dashboard</strong> that serves as a single source of truth for scheduling and payments.</li>
+                        <li>Developed a real-time booking system using JavaScript, applying defensive coding techniques to prevent scheduling conflicts.</li>
                     </ul>
                 `
             },
             {
-                id: 'personal-website',
-                title: 'Personal Website',
-                subtitle: 'Ever Evolving. 💪🏽',
-                description: 'My personal portfolio, built to showcase my skills and projects in a responsive, modern design.',
+                id: 'readwise-edge',
+                title: 'ReadWise Edge (AI Concept)',
+                subtitle: 'Product Design | 2025',
+                description: 'AI-assisted concept designed to improve reading comprehension and pronunciation.',
                 details: `
                     <ul class="list-disc list-inside space-y-2">
-                        <li>Driving the end-to-end development of this portfolio as a living project that evolves with my skills.</li>
-                        <li>Utilizing <strong>HTML, CSS, and JavaScript</strong> to ensure a professional and responsive online presence across all devices.</li>
-                        <li>This interactive resume is an example of creating a dynamic and engaging user experience.</li>
-                    </ul>
-                `
-            },
-            {
-                id: 'snake-game',
-                title: 'Snake Game',
-                subtitle: 'Summer Project | May 2023',
-                description: 'An exploration of object-oriented design and core game logic in Java.',
-                details: `
-                    <ul class="list-disc list-inside space-y-2">
-                        <li>Applied <strong>object-oriented design principles in Java</strong> to build a complete, interactive application from the ground up.</li>
-                        <li>Focused on core game development logic, including real-time state management, collision detection, and dynamic scoring.</li>
-                        <li>Prioritized a quality user experience through clean code structure and intuitive controls.</li>
+                        <li>Researched and designed an AI workflow for <strong>LLM-driven feedback</strong> and speech-to-text API integration.</li>
+                        <li>Focused on <strong>Product Thinking</strong> to translate complex user needs into actionable software features.</li>
+                        <li>Analyzed emerging AI pronunciation analysis workflows for real-time user insights.</li>
                     </ul>
                 `
             },
             {
                 id: 'distance-calculator',
-                title: 'Global Distance Calculator',
-                subtitle: 'Summer Project | May 2022',
-                description: 'A practical application of geospatial algorithms and problem-solving in Java.',
+                title: 'Geospatial Algorithms',
+                subtitle: 'Java Project | May 2022',
+                description: 'A practical application of geospatial algorithms and precision problem-solving in Java.',
                 details: `
                     <ul class="list-disc list-inside space-y-2">
-                        <li>Developed a Java application implementing geospatial algorithms to accurately calculate surface distances between two points on Earth.</li>
-                        <li>Demonstrated strong <strong>problem-solving and algorithmic thinking</strong> by translating complex mathematical formulas into functional code.</li>
+                        <li>Developed a Java application implementing geospatial algorithms to calculate surface distances between global coordinates.</li>
+                        <li>Applied algorithmic reasoning to deliver accurate computational results for real-world distances.</li>
                     </ul>
                 `
-            },
+            }
         ];
 
         function showSection(sectionId) {
-            sections.forEach(section => {
-                section.classList.remove('active');
-                if (section.id === sectionId) {
-                    section.classList.add('active');
-                }
-            });
+            sections.forEach(section => section.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
             navLinks.forEach(link => {
                 link.classList.remove('active');
-                if (link.getAttribute('onclick').includes(sectionId)) {
-                    link.classList.add('active');
-                }
+                if (link.getAttribute('onclick').includes(sectionId)) link.classList.add('active');
             });
         }
         
         function populateProjects() {
-            projectGrid.innerHTML = '';
-            projectsData.forEach(project => {
-                const card = `
-                    <div onclick="openModal('${project.id}')" class="project-card cursor-pointer bg-white p-6 rounded-lg shadow-md border border-gray-200">
-                        <h3 class="font-bold text-lg text-gray-800">${project.title}</h3>
-                        <p class="text-sm text-gray-500 mb-3">${project.subtitle}</p>
-                        <p class="text-gray-600">${project.description}</p>
-                    </div>
-                `;
-                projectGrid.innerHTML += card;
-            });
+            projectGrid.innerHTML = projectsData.map(project => `
+                <div onclick="openModal('${project.id}')" class="project-card cursor-pointer bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                    <h3 class="font-bold text-lg text-gray-800">${project.title}</h3>
+                    <p class="text-sm text-gray-500 mb-3">${project.subtitle}</p>
+                    <p class="text-gray-600">${project.description}</p>
+                </div>
+            `).join('');
         }
         
         function openModal(projectId) {
             const project = projectsData.find(p => p.id === projectId);
             if (!project) return;
-            
             modalTitle.textContent = project.title;
             modalSubtitle.innerHTML = project.subtitle;
             modalContent.innerHTML = project.details;
-
             modal.classList.remove('hidden');
             modal.classList.add('flex');
-            setTimeout(() => {
-                modal.querySelector('.modal-content').classList.remove('scale-95', 'opacity-0');
-                modal.querySelector('.modal-content').classList.add('scale-100', 'opacity-100');
-            }, 10);
         }
 
         function closeModal() {
-            modal.querySelector('.modal-content').classList.add('scale-95', 'opacity-0');
-            modal.querySelector('.modal-content').classList.remove('scale-100', 'opacity-100');
-            setTimeout(() => {
-                modal.classList.add('hidden');
-                modal.classList.remove('flex');
-            }, 300);
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
         }
         
         function createSkillsChart() {
@@ -286,64 +215,21 @@
             new Chart(ctx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Languages', 'Tools & Technologies', 'Concepts'],
+                    labels: ['Languages', 'APIs & Platforms', 'Concepts'],
                     datasets: [{
-                        label: 'Skills Breakdown',
-                        data: [5, 5, 4],
-                        backgroundColor: [
-                            'rgba(100, 116, 139, 0.7)',
-                            'rgba(56, 189, 248, 0.7)',
-                            'rgba(129, 140, 248, 0.7)',
-                        ],
-                        borderColor: [
-                            'rgba(100, 116, 139, 1)',
-                            'rgba(56, 189, 248, 1)',
-                            'rgba(129, 140, 248, 1)',
-                        ],
-                        borderWidth: 1
+                        data: [4, 4, 4],
+                        backgroundColor: ['#64748b', '#38bdf8', '#818cf8'],
+                        borderWidth: 0
                     }]
                 },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            position: 'bottom',
-                        },
-                        tooltip: {
-                             callbacks: {
-                                label: function(context) {
-                                    let label = context.label || '';
-                                    if (label) {
-                                        label += ': ';
-                                    }
-                                    if (context.parsed !== null) {
-                                        label += context.parsed + ' skills';
-                                    }
-                                    return label;
-                                }
-                            }
-                        }
-                    }
-                }
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
             });
         }
 
         window.onload = () => {
-            showSection('about');
             populateProjects();
             createSkillsChart();
-
-            modal.addEventListener('click', (event) => {
-                if (event.target === modal) {
-                    closeModal();
-                }
-            });
         };
     </script>
-
 </body>
 </html>
-
-
-
